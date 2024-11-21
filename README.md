@@ -12,6 +12,6 @@
 <p align="left">
 <a href="mailto:dopadevv@gmail.com" target="_blank" rel="noreferrer" title="Mail"> <picture> <source media="(prefers-color-scheme: dark)" srcset="https://cdn.iconscout.com/icon/free/png-512/free-mail-icon-download-in-svg-png-gif-file-formats--email-message-inbox-app-ios-14-pack-user-interface-icons-2365225.png?f=webp&w=512" /> <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/danielcranney/readme-generator/main/public/icons/socials/github.svg" /> <img src="https://raw.githubusercontent.com/danielcranney/readme-generator/main/public/icons/socials/github.svg" width="32" height="32" /> </picture> </a> &nbsp <a href="https://t.me/dopadev" target="_blank" rel="noreferrer" title="Telegram"> <picture> <source media="(prefers-color-scheme: dark)" srcset="https://upload.wikimedia.org/wikipedia/commons/thumb/8/83/Telegram_2019_Logo.svg/1024px-Telegram_2019_Logo.svg.png" /> <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/danielcranney/readme-generator/main/public/icons/socials/github.svg" /> <img src="https://raw.githubusercontent.com/danielcranney/readme-generator/main/public/icons/socials/github.svg" width="32" height="32" /> </picture> </a> </p>
 
----
+<br>
 
-![Top Langs](https://github-readme-stats.vercel.app/api/top-langs/?username=dopadev&theme=dark)
+<img src="https://github-readme-stats.vercel.app/api/top-langs/?username=dopadev&theme=dark"/>
