@@ -1,0 +1,31 @@
+{
+  "files": {
+    "main.css": "/dopadev/static/css/main.76908f74.css",
+    "main.js": "/dopadev/static/js/main.fccc6a2d.js",
+    "static/media/hotel.jpg": "/dopadev/static/media/hotel.5d4d8b2beaf0797d1876.jpg",
+    "static/media/triango.jpg": "/dopadev/static/media/triango.2ccc7bec3026540ed23d.jpg",
+    "static/media/Mockup-Iphone-3.jpg": "/dopadev/static/media/Mockup-Iphone-3.62f66fcce59e6ba46758.jpg",
+    "static/media/Mockup-Iphone-2.jpg": "/dopadev/static/media/Mockup-Iphone-2.21d0bd6abab99eff86ff.jpg",
+    "static/media/new-life.png": "/dopadev/static/media/new-life.0bbdd366c3ab8b5d21e1.png",
+    "static/media/dopadev.jpeg": "/dopadev/static/media/dopadev.af801fde5e62c52b935f.jpeg",
+    "static/media/Mockup-Iphone-1.jpg": "/dopadev/static/media/Mockup-Iphone-1.7424e6cc3c45289cbdbb.jpg",
+    "static/media/triango.png": "/dopadev/static/media/triango.05003a22e13c733c78b6.png",
+    "static/media/Mockup-Macbook-2.jpg": "/dopadev/static/media/Mockup-Macbook-2.081593ea84765b2f334b.jpg",
+    "static/media/Mockup-Macbook-1.jpg": "/dopadev/static/media/Mockup-Macbook-1.f1026d151068cf1dfbbb.jpg",
+    "static/media/Mockup-Macbook-3.jpg": "/dopadev/static/media/Mockup-Macbook-3.a3956ceb52f862f4764c.jpg",
+    "static/media/MontserratAlternates-Bold.woff2": "/dopadev/static/media/MontserratAlternates-Bold.b0ff6c412de1678c70a6.woff2",
+    "static/media/MontserratAlternates-Medium.woff2": "/dopadev/static/media/MontserratAlternates-Medium.3b51d6d8e5cf38900b64.woff2",
+    "static/media/MontserratAlternates-Regular.woff2": "/dopadev/static/media/MontserratAlternates-Regular.0661c7815d866dfa5831.woff2",
+    "static/media/MontserratAlternates-ExtraBold.woff2": "/dopadev/static/media/MontserratAlternates-ExtraBold.e7bf9e6414539f0f14e3.woff2",
+    "static/media/MontserratAlternates-SemiBold.woff2": "/dopadev/static/media/MontserratAlternates-SemiBold.2c2af36e4c57e9ccaa7c.woff2",
+    "static/media/MontserratAlternates-Black.woff2": "/dopadev/static/media/MontserratAlternates-Black.06d10543dd0b3dccb10e.woff2",
+    "static/media/medical-care.png": "/dopadev/static/media/medical-care.d59f4f8b64733619fa40.png",
+    "index.html": "/dopadev/index.html",
+    "main.76908f74.css.map": "/dopadev/static/css/main.76908f74.css.map",
+    "main.fccc6a2d.js.map": "/dopadev/static/js/main.fccc6a2d.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.76908f74.css",
+    "static/js/main.fccc6a2d.js"
+  ]
+}
