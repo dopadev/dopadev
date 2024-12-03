@@ -1,6 +1,6 @@
 {
   "files": {
-    "main.css": "/dopadev/static/css/main.d29e3c13.css",
+    "main.css": "/dopadev/static/css/main.10b16d45.css",
     "main.js": "/dopadev/static/js/main.fccc6a2d.js",
     "static/media/hotel.jpg": "/dopadev/static/media/hotel.5d4d8b2beaf0797d1876.jpg",
     "static/media/triango.jpg": "/dopadev/static/media/triango.2ccc7bec3026540ed23d.jpg",
@@ -21,11 +21,11 @@
     "static/media/MontserratAlternates-Black.woff2": "/dopadev/static/media/MontserratAlternates-Black.06d10543dd0b3dccb10e.woff2",
     "static/media/medical-care.png": "/dopadev/static/media/medical-care.d59f4f8b64733619fa40.png",
     "index.html": "/dopadev/index.html",
-    "main.d29e3c13.css.map": "/dopadev/static/css/main.d29e3c13.css.map",
+    "main.10b16d45.css.map": "/dopadev/static/css/main.10b16d45.css.map",
     "main.fccc6a2d.js.map": "/dopadev/static/js/main.fccc6a2d.js.map"
   },
   "entrypoints": [
-    "static/css/main.d29e3c13.css",
+    "static/css/main.10b16d45.css",
     "static/js/main.fccc6a2d.js"
   ]
 }
