@@ -1,0 +1,22 @@
+.hero {
+	max-width: 1200px;
+	margin: 0 auto;
+	padding-bottom: 16vh;
+}
+
+.heroText {
+	display: inline;
+	line-height: 120%;
+	font-size: 4.4rem;
+	font-weight: 500;
+}
+
+@media screen and (max-width: 767px) {
+	.hero {
+		max-width: 100%;
+		padding-bottom: 10vh;
+	}
+	.heroText {
+		font-size: 2.25rem;
+	}
+}

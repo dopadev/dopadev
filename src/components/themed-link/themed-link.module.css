@@ -1,0 +1,32 @@
+.link {
+	font-weight: 500;
+	font-size: 1.375rem;
+	position: relative;
+	text-decoration: none;
+	padding-block: 40px;
+}
+
+.link::after {
+	content: '';
+	position: absolute;
+	bottom: var(--bottom);
+	left: 0;
+	width: 100%;
+	height: 2px;
+	background-color: var(--underline-color, #1c1e21);
+	transform: scaleX(0);
+	transform-origin: bottom right;
+	transition: transform 0.3s ease;
+}
+
+.link:hover::after {
+	transform: scaleX(1);
+	transform-origin: bottom left;
+}
+
+@media screen and (max-width: 767px) {
+	.link {
+		padding-block: 20px;
+		font-size: 1.125rem;
+	}
+}

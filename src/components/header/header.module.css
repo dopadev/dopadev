@@ -1,0 +1,37 @@
+.header {
+	width: 100%;
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	position: fixed;
+	top: 0;
+	z-index: 1000;
+	padding-inline: 20px;
+	box-sizing: border-box;
+	max-width: calc(1200px + 20px * 2);
+	left: 0;
+	right: 0;
+	margin-inline: auto;
+}
+
+.logo,
+.header a {
+	font-weight: 500;
+	font-size: 1.4rem;
+}
+
+.logo,
+.menu {
+	padding-block: 40px;
+}
+
+@media screen and (max-width: 767px) {
+	.logo,
+	.menu {
+		padding-block: 20px;
+	}
+	.logo,
+	.header a {
+		font-size: 1.2rem;
+	}
+}

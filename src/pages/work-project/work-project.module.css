@@ -1,0 +1,14 @@
+.container {
+	max-width: 750px;
+	margin-inline: auto;
+}
+
+h1 {
+	font-size: 4.5rem;
+	font-weight: 700;
+}
+
+h3 {
+	font-size: 1.6rem;
+	font-weight: 500;
+}

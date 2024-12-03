@@ -1,0 +1,165 @@
+.about {
+	max-width: 1200px;
+}
+
+.container {
+	max-width: 750px;
+	margin-inline: auto;
+}
+
+.aboutText {
+	display: flex;
+	flex-direction: column;
+	gap: 40px;
+}
+
+.aboutText h2 {
+	display: inline;
+	font-size: 3rem;
+	font-weight: 500;
+}
+
+.aboutText p {
+	font-size: 1.4rem;
+	line-height: 1.5;
+}
+
+.aboutImage {
+	margin-block: 100px;
+	user-select: none;
+
+	display: flex;
+	flex-direction: column;
+	gap: 20px;
+}
+
+.aboutSection {
+	display: flex;
+	flex-direction: column;
+	gap: 80px;
+}
+
+.aboutSection h3 {
+	font-size: 2rem;
+	font-weight: 500;
+	margin-bottom: 20px;
+}
+
+.aboutSection h3 div {
+	display: inline;
+	font-size: 1.2rem;
+}
+
+.block {
+	display: grid;
+	grid-template-columns: repeat(2, 1fr);
+}
+
+.block p {
+	font-size: 1.1rem;
+	margin-top: 5px;
+}
+
+.education {
+	display: flex;
+	flex-direction: column;
+	gap: 20px;
+}
+
+.skills {
+	font-size: 1.2rem;
+	line-height: 1.5;
+}
+
+.contact {
+	display: flex;
+	flex-direction: column;
+	gap: 5px;
+}
+
+.contact li {
+	display: block;
+}
+
+.contact p {
+	font-size: 1.4rem;
+	padding-block: 5px;
+}
+
+.aboutText h1 {
+	font-size: 4.5rem;
+	font-weight: 600;
+}
+
+.aboutText h3 {
+	font-weight: 500;
+	font-size: 1.8rem;
+}
+
+.back {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	margin-top: 50px;
+}
+
+.back a {
+	font-size: 2.2rem;
+	padding-block: 5px;
+}
+
+@media screen and (max-width: 767px) {
+	.about {
+		max-width: 100%;
+		padding-block: 4vw;
+	}
+	.container {
+		max-width: 100%;
+		/*margin-top: 5vh;*/
+	}
+	.aboutText {
+		gap: 20px;
+	}
+	.aboutText h1,
+	.aboutText h2 {
+		font-size: 2.2rem;
+	}
+	.aboutText h3 {
+		font-size: 1.4rem;
+	}
+	.aboutText p {
+		font-size: 1rem;
+	}
+	.aboutImage {
+		margin-block: 50px;
+		gap: 10px;
+	}
+	.aboutSection {
+		gap: 40px;
+	}
+	.aboutSection h3 {
+		font-size: 1.5rem;
+		font-weight: 500;
+		margin-bottom: 10px;
+	}
+	.aboutSection h3 div,
+	.skills {
+		font-size: 1rem;
+	}
+	.block h4 {
+		font-size: 1.3rem;
+	}
+	.block h5 {
+		font-size: 1.1rem;
+	}
+	.block p {
+		font-size: 0.9rem;
+	}
+	.contact p {
+		font-size: 1.2rem;
+		padding-block: 0px;
+	}
+	.back a {
+		font-size: 1.6rem;
+	}
+}

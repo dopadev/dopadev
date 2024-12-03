@@ -1,0 +1,55 @@
+.slide {
+	-webkit-animation: slide 0.6s cubic-bezier(0.2, 0.6, 0.2, 1);
+	-moz-animation: slide 0.6s cubic-bezier(0.2, 0.6, 0.2, 1);
+	animation: slide 0.6s cubic-bezier(0.2, 0.6, 0.2, 1);
+	-webkit-animation-fill-mode: backwards;
+	-moz-animation-fill-mode: backwards;
+	animation-fill-mode: backwards;
+}
+
+.delay01 {
+	-webkit-animation-delay: 0.3s;
+	animation-delay: 0.3s;
+}
+
+.delay02 {
+	-webkit-animation-delay: 0.6s;
+	animation-delay: 0.6s;
+}
+
+.delay03 {
+	-webkit-animation-delay: 0.9s;
+	animation-delay: 0.9s;
+}
+
+.delay04 {
+	-webkit-animation-delay: 1.2s;
+	animation-delay: 1.2s;
+}
+
+.delay05 {
+	-webkit-animation-delay: 1.5s;
+	animation-delay: 1.5s;
+}
+
+@-webkit-keyframes slide {
+	0% {
+		opacity: 0;
+		-webkit-transform: translateY(10vh);
+	}
+	100% {
+		opacity: 1;
+		-webkit-transform: translateY(0%);
+	}
+}
+
+@keyframes slide {
+	0% {
+		opacity: 0;
+		transform: translateY(10vh);
+	}
+	100% {
+		opacity: 1;
+		transform: translateY(0%);
+	}
+}
