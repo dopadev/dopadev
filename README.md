@@ -4,7 +4,7 @@
 
 ### Сайт
 
-https://dopadev.github.io/dopadev
+<a href="https://dopadev.github.io/dopadev" target="_blank" rel="noreferrer">dopadev</a>
 
 ### Навыки
 
