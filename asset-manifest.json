@@ -1,15 +1,18 @@
 {
   "files": {
-    "main.css": "/dopadev/static/css/main.020197e5.css",
-    "main.js": "/dopadev/static/js/main.fccc6a2d.js",
+    "main.css": "/dopadev/static/css/main.88293398.css",
+    "main.js": "/dopadev/static/js/main.2b9c167b.js",
     "static/media/hotel.jpg": "/dopadev/static/media/hotel.5d4d8b2beaf0797d1876.jpg",
     "static/media/triango.jpg": "/dopadev/static/media/triango.2ccc7bec3026540ed23d.jpg",
     "static/media/Mockup-Iphone-3.jpg": "/dopadev/static/media/Mockup-Iphone-3.62f66fcce59e6ba46758.jpg",
+    "static/media/chat.jpg": "/dopadev/static/media/chat.6aa515432c431fe00796.jpg",
     "static/media/Mockup-Iphone-2.jpg": "/dopadev/static/media/Mockup-Iphone-2.21d0bd6abab99eff86ff.jpg",
-    "static/media/new-life.png": "/dopadev/static/media/new-life.0bbdd366c3ab8b5d21e1.png",
     "static/media/dopadev.jpeg": "/dopadev/static/media/dopadev.af801fde5e62c52b935f.jpeg",
+    "static/media/code-editor.jpg": "/dopadev/static/media/code-editor.7b5551736639b39c03c2.jpg",
     "static/media/Mockup-Iphone-1.jpg": "/dopadev/static/media/Mockup-Iphone-1.7424e6cc3c45289cbdbb.jpg",
     "static/media/triango.png": "/dopadev/static/media/triango.05003a22e13c733c78b6.png",
+    "static/media/phone-both.jpg": "/dopadev/static/media/phone-both.dacde6428ae0ad996797.jpg",
+    "static/media/desktop-chat.jpg": "/dopadev/static/media/desktop-chat.7f8d539ccc046a78126d.jpg",
     "static/media/Mockup-Macbook-2.jpg": "/dopadev/static/media/Mockup-Macbook-2.081593ea84765b2f334b.jpg",
     "static/media/Mockup-Macbook-1.jpg": "/dopadev/static/media/Mockup-Macbook-1.f1026d151068cf1dfbbb.jpg",
     "static/media/Mockup-Macbook-3.jpg": "/dopadev/static/media/Mockup-Macbook-3.a3956ceb52f862f4764c.jpg",
@@ -21,11 +24,11 @@
     "static/media/MontserratAlternates-Black.woff2": "/dopadev/static/media/MontserratAlternates-Black.06d10543dd0b3dccb10e.woff2",
     "static/media/medical-care.png": "/dopadev/static/media/medical-care.d59f4f8b64733619fa40.png",
     "index.html": "/dopadev/index.html",
-    "main.020197e5.css.map": "/dopadev/static/css/main.020197e5.css.map",
-    "main.fccc6a2d.js.map": "/dopadev/static/js/main.fccc6a2d.js.map"
+    "main.88293398.css.map": "/dopadev/static/css/main.88293398.css.map",
+    "main.2b9c167b.js.map": "/dopadev/static/js/main.2b9c167b.js.map"
   },
   "entrypoints": [
-    "static/css/main.020197e5.css",
-    "static/js/main.fccc6a2d.js"
+    "static/css/main.88293398.css",
+    "static/js/main.2b9c167b.js"
   ]
 }
