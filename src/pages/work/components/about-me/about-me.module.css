@@ -1,7 +1,8 @@
 .aboutMe {
 	margin: 0px auto;
 	max-width: 750px;
-	padding-top: 5vw;
+	/* padding-top: 5vw; */
+	margin-top: -10vw;
 }
 
 .description {

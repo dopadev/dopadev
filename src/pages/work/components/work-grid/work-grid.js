@@ -18,7 +18,7 @@ export const WorkGrid = () => {
 		{
 			id: 'chat',
 			name: 'Modern Chat',
-			description: 'Web Chat App',
+			description: 'Web Messenger App',
 			imageUrl: chatImg,
 		},
 		{
