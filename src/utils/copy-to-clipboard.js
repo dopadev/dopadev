@@ -1,4 +1,8 @@
-import { setEmailCopied, setTelegramCopied } from '../store/slices/copy-slice'
+import {
+	setEmailCopied,
+	setTelegramCopied,
+	setGithubCopied,
+} from '../store/slices/copy-slice'
 
 export const copyToClipboard = (text, type, dispatch) => {
 	navigator.clipboard
@@ -8,6 +12,8 @@ export const copyToClipboard = (text, type, dispatch) => {
 				dispatch(setEmailCopied(true))
 			} else if (type === 'telegram') {
 				dispatch(setTelegramCopied(true))
+			} else if (type === 'github') {
+				dispatch(setGithubCopied(true))
 			}
 
 			setTimeout(() => {
@@ -15,6 +21,8 @@ export const copyToClipboard = (text, type, dispatch) => {
 					dispatch(setEmailCopied(false))
 				} else if (type === 'telegram') {
 					dispatch(setTelegramCopied(false))
+				} else if (type === 'github') {
+					dispatch(setGithubCopied(false))
 				}
 			}, 1500)
 		})

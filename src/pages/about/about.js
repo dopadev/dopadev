@@ -10,6 +10,7 @@ export const About = () => {
 	const dispatch = useDispatch()
 	const isEmailCopied = useSelector(state => state.copy.isEmailCopied)
 	const isTelegramCopied = useSelector(state => state.copy.isTelegramCopied)
+	const isGithubCopied = useSelector(state => state.copy.isGithubCopied)
 	const {
 		creative,
 		webDev,
@@ -55,8 +56,9 @@ export const About = () => {
 		},
 	]
 
+	const github = 'github.com/dopadev'
+	const telegram = 't.me/dopadev'
 	const email = 'dopadevv@gmail.com'
-	const telegram = '@dopadev'
 
 	const handleCopy = (text, type) => {
 		copyToClipboard(text, type, dispatch)
@@ -127,11 +129,14 @@ export const About = () => {
 							{contact} <div>(click to copy)</div>
 						</h3>
 						<div className={styles.contact}>
+							<li onClick={() => handleCopy(github, 'github')}>
+								<p>{isGithubCopied ? 'Github link copied' : 'Github'}</p>
+							</li>
 							<li onClick={() => handleCopy(telegram, 'telegram')}>
-								<p>{isTelegramCopied ? 'Telegram copied' : telegram}</p>
+								<p>{isTelegramCopied ? 'Telegram link copied' : 'Telegram'}</p>
 							</li>
 							<li onClick={() => handleCopy(email, 'email')}>
-								<p>{isEmailCopied ? 'Email copied' : email}</p>
+								<p>{isEmailCopied ? 'Email copied' : 'Email'}</p>
 							</li>
 						</div>
 					</div>
