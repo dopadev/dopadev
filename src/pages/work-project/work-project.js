@@ -14,9 +14,12 @@ import hotelM1 from '../../img/work-projects/hotel/Mockup-Macbook-1.jpg'
 import hotelM2 from '../../img/work-projects/hotel/Mockup-Macbook-2.jpg'
 import hotelM3 from '../../img/work-projects/hotel/Mockup-Macbook-3.jpg'
 
+import chat1 from '../../img/work-projects/chat/desktop-chat.jpg'
+import chat2 from '../../img/work-projects/chat/phone-both.jpg'
+
 import triangoImg from '../../img/work-projects/other/triango.png'
 import mcImg from '../../img/work-projects/other/medical-care.png'
-import nlImg from '../../img/work-projects/other/new-life.png'
+import codeEditorImg from '../../img/work-projects/other/code-editor.jpg'
 
 export const WorkProject = () => {
 	const { id } = useParams()
@@ -39,17 +42,31 @@ export const WorkProject = () => {
 			`,
 		},
 		{
+			id: 'chat',
+			name: 'Modern Chat',
+			description:
+				language === 'ru'
+					? `Modern Chat - это удобное веб-приложение для связи с близкими в режиме реального времени, которое только в начале пути к совершенству!`
+					: `Modern Chat is an easy-to-use web app for real-time communication with loved ones that is just at the beginning of its journey to perfection!`,
+			imageUrl: [chat1, chat2],
+			detailedDescription:
+				language === 'ru'
+					? `Этот проект - это моя идея, которую можно довести до моего идеального представления мессенджера с приятным, а главное удобным интерфейсом на любом устройстве.`
+					: `This project is my idea, which can be brought to my perfect representation of a messenger with a pleasant, and most importantly user-friendly interface on any device.
+			`,
+		},
+		{
 			id: 'other',
 			name: 'Other Apps',
 			description:
 				language === 'ru'
 					? `Разные небольшие веб-приложения.`
 					: `Various small web applications.`,
-			imageUrl: [triangoImg, mcImg, nlImg],
+			imageUrl: [triangoImg, mcImg, codeEditorImg],
 			detailedDescription:
 				language === 'ru'
-					? `В небольших веб-приложениях я разрабатывал фронтенд на React + Redux.`
-					: `In small web applications, I've been developing frontend on React + Redux.`,
+					? `В небольших веб-приложениях я разрабатывал фронтенд на React + Redux и Vue + Vuex/Pinia.`
+					: `In small web applications, I've been developing frontend on React + Redux и Vue + Vuex/Pinia.`,
 		},
 	]
 

@@ -5,6 +5,7 @@ import animationStyles from '../../../../styles/animations.module.css'
 
 import hotelImg from '../../../../img/work/hotel.jpg'
 import triangoImg from '../../../../img/work/triango.jpg'
+import chatImg from '../../../../img/work/chat.jpg'
 
 export const WorkGrid = () => {
 	const workProjects = [
@@ -13,6 +14,12 @@ export const WorkGrid = () => {
 			name: 'Hotel',
 			description: 'Web Hotel Booking App',
 			imageUrl: hotelImg,
+		},
+		{
+			id: 'chat',
+			name: 'Modern Chat',
+			description: 'Web Chat App',
+			imageUrl: chatImg,
 		},
 		{
 			id: 'other',
