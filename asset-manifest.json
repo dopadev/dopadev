@@ -1,7 +1,12 @@
 {
   "files": {
-    "main.css": "/dopadev/static/css/main.88293398.css",
-    "main.js": "/dopadev/static/js/main.b6669078.js",
+    "main.css": "/dopadev/static/css/main.020197e5.css",
+    "main.js": "/dopadev/static/js/main.b33b6b67.js",
+    "static/media/hubble.jpg": "/dopadev/static/media/hubble.3eb792627491f70d3b51.jpg",
+    "static/media/hubble-d1.jpg": "/dopadev/static/media/hubble-d1.8db0714b54320afddf90.jpg",
+    "static/media/hubble-p1.jpg": "/dopadev/static/media/hubble-p1.ef436a8960f8c8a47587.jpg",
+    "static/media/hubble-d3.jpg": "/dopadev/static/media/hubble-d3.9e27e51a453d1d277464.jpg",
+    "static/media/hubble-d2.jpg": "/dopadev/static/media/hubble-d2.06a5e84387901f75537a.jpg",
     "static/media/hotel.jpg": "/dopadev/static/media/hotel.5d4d8b2beaf0797d1876.jpg",
     "static/media/triango.jpg": "/dopadev/static/media/triango.2ccc7bec3026540ed23d.jpg",
     "static/media/Mockup-Iphone-3.jpg": "/dopadev/static/media/Mockup-Iphone-3.62f66fcce59e6ba46758.jpg",
@@ -24,11 +29,11 @@
     "static/media/MontserratAlternates-Black.woff2": "/dopadev/static/media/MontserratAlternates-Black.06d10543dd0b3dccb10e.woff2",
     "static/media/medical-care.png": "/dopadev/static/media/medical-care.d59f4f8b64733619fa40.png",
     "index.html": "/dopadev/index.html",
-    "main.88293398.css.map": "/dopadev/static/css/main.88293398.css.map",
-    "main.b6669078.js.map": "/dopadev/static/js/main.b6669078.js.map"
+    "main.020197e5.css.map": "/dopadev/static/css/main.020197e5.css.map",
+    "main.b33b6b67.js.map": "/dopadev/static/js/main.b33b6b67.js.map"
   },
   "entrypoints": [
-    "static/css/main.88293398.css",
-    "static/js/main.b6669078.js"
+    "static/css/main.020197e5.css",
+    "static/js/main.b33b6b67.js"
   ]
 }
