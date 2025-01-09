@@ -4,8 +4,9 @@ import styles from './work-grid.module.css'
 import animationStyles from '../../../../styles/animations.module.css'
 
 import hotelImg from '../../../../img/work/hotel.jpg'
-import triangoImg from '../../../../img/work/triango.jpg'
+import hubbleImg from '../../../../img/work/hubble.jpg'
 import chatImg from '../../../../img/work/chat.jpg'
+import triangoImg from '../../../../img/work/triango.jpg'
 
 export const WorkGrid = () => {
 	const workProjects = [
@@ -20,6 +21,12 @@ export const WorkGrid = () => {
 			name: 'Modern Chat',
 			description: 'Web Messenger App',
 			imageUrl: chatImg,
+		},
+		{
+			id: 'restaurant',
+			name: 'Hubble',
+			description: 'Web Restaurant App',
+			imageUrl: hubbleImg,
 		},
 		{
 			id: 'other',

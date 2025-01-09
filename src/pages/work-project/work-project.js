@@ -14,6 +14,11 @@ import hotelM1 from '../../img/work-projects/hotel/Mockup-Macbook-1.jpg'
 import hotelM2 from '../../img/work-projects/hotel/Mockup-Macbook-2.jpg'
 import hotelM3 from '../../img/work-projects/hotel/Mockup-Macbook-3.jpg'
 
+import hubbleD1 from '../../img/work-projects/restaurant/hubble-d1.jpg'
+import hubbleD2 from '../../img/work-projects/restaurant/hubble-d2.jpg'
+import hubbleD3 from '../../img/work-projects/restaurant/hubble-d3.jpg'
+import hubbleP1 from '../../img/work-projects/restaurant/hubble-p1.jpg'
+
 import chat1 from '../../img/work-projects/chat/desktop-chat.jpg'
 import chat2 from '../../img/work-projects/chat/phone-both.jpg'
 
@@ -37,8 +42,8 @@ export const WorkProject = () => {
 			imageUrl: [hotelI1, hotelI2, hotelI3, hotelM1, hotelM2, hotelM3],
 			detailedDescription:
 				language === 'ru'
-					? `Я работал над этим проектом самостоятельно, сосредоточившись на создании интуитивно понятного опыта для пользователей, которые хотят забронировать жильё с минимальными усилиями. Моей целью было создать инструмент, который максимально упростил бы процесс бронирования. С нуля написал бэкенд - настроил работу с удалённой базой данных, а затем сделал фронтенд на React + Redux. У проекта большие просторы для расширения, поэтому он всё ещё в разработке.`
-					: `I worked on this project independently, focusing on creating an intuitive experience for users who want to book accommodation with minimal effort. My goal was to create a tool that would simplify the booking process as much as possible. I wrote the backend from scratch - setting up a remote database and then built the frontend on React + Redux. The project has a lot of room for expansion, so it's still in development.
+					? `Я работал над этим проектом самостоятельно, сосредоточившись на создании интуитивно понятного опыта для пользователей, которые хотят забронировать жильё с минимальными усилиями. Моей целью было создать инструмент, который максимально упростил бы процесс бронирования. С нуля написал бэкенд - настроил работу с удалённой базой данных, а затем сделал фронтенд на React + Redux. У проекта большие просторы для расширения.`
+					: `I worked on this project independently, focusing on creating an intuitive experience for users who want to book accommodation with minimal effort. My goal was to create a tool that would simplify the booking process as much as possible. I wrote the backend from scratch - setting up a remote database and then built the frontend on React + Redux. The project has a lot of room for expansion.
 			`,
 		},
 		{
@@ -54,6 +59,19 @@ export const WorkProject = () => {
 					? `Этот проект - это моя идея, которую можно довести до моего идеального представления мессенджера с приятным, а главное удобным интерфейсом на любом устройстве.`
 					: `This project is my idea, which can be brought to my perfect representation of a messenger with a pleasant, and most importantly user-friendly interface on any device.
 			`,
+		},
+		{
+			id: 'restaurant',
+			name: 'Hubble',
+			description:
+				language === 'ru'
+					? `Hubble — это удобное веб-приложение для бронирования столиков в ресторане на Бали, где вы можете выбрать удобное время и место для ужина, а также ознакомиться с меню и текущими предложениями заведения. Hubble позволит вам быстро и без лишних хлопот забронировать столик, чтобы насладиться уникальной атмосферой и авторской кухней прямо на острове.`
+					: `Hubble is an easy-to-use web application for restaurant reservations in Bali, where you can choose a convenient time and place to dine, as well as view the menu and current offers of the establishment. Hubble allows you to make a quick and hassle-free reservation to enjoy a unique atmosphere and authentic cuisine right on the island.`,
+			imageUrl: [hubbleD1, hubbleD2, hubbleD3, hubbleP1],
+			detailedDescription:
+				language === 'ru'
+					? `Моей целью в этом приложении было создать интуитивно понятное и приятное глазу приложение. Я разработал фронтенд на React, обеспечив удобный интерфейс.`
+					: `My goal with this application was to create an intuitive and eye-pleasing application. I developed the frontend in React, providing a user-friendly interface.`,
 		},
 		{
 			id: 'other',
