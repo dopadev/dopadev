@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/dopadev/static/css/main.020197e5.css",
-    "main.js": "/dopadev/static/js/main.b33b6b67.js",
+    "main.js": "/dopadev/static/js/main.9d222b2e.js",
     "static/media/hubble.jpg": "/dopadev/static/media/hubble.3eb792627491f70d3b51.jpg",
     "static/media/hubble-d1.jpg": "/dopadev/static/media/hubble-d1.8db0714b54320afddf90.jpg",
     "static/media/hubble-p1.jpg": "/dopadev/static/media/hubble-p1.ef436a8960f8c8a47587.jpg",
@@ -30,10 +30,10 @@
     "static/media/medical-care.png": "/dopadev/static/media/medical-care.d59f4f8b64733619fa40.png",
     "index.html": "/dopadev/index.html",
     "main.020197e5.css.map": "/dopadev/static/css/main.020197e5.css.map",
-    "main.b33b6b67.js.map": "/dopadev/static/js/main.b33b6b67.js.map"
+    "main.9d222b2e.js.map": "/dopadev/static/js/main.9d222b2e.js.map"
   },
   "entrypoints": [
     "static/css/main.020197e5.css",
-    "static/js/main.b33b6b67.js"
+    "static/js/main.9d222b2e.js"
   ]
 }
