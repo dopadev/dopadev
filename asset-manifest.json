@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/dopadev/static/css/main.88293398.css",
-    "main.js": "/dopadev/static/js/main.f2215827.js",
+    "main.js": "/dopadev/static/js/main.b6669078.js",
     "static/media/hotel.jpg": "/dopadev/static/media/hotel.5d4d8b2beaf0797d1876.jpg",
     "static/media/triango.jpg": "/dopadev/static/media/triango.2ccc7bec3026540ed23d.jpg",
     "static/media/Mockup-Iphone-3.jpg": "/dopadev/static/media/Mockup-Iphone-3.62f66fcce59e6ba46758.jpg",
@@ -25,10 +25,10 @@
     "static/media/medical-care.png": "/dopadev/static/media/medical-care.d59f4f8b64733619fa40.png",
     "index.html": "/dopadev/index.html",
     "main.88293398.css.map": "/dopadev/static/css/main.88293398.css.map",
-    "main.f2215827.js.map": "/dopadev/static/js/main.f2215827.js.map"
+    "main.b6669078.js.map": "/dopadev/static/js/main.b6669078.js.map"
   },
   "entrypoints": [
     "static/css/main.88293398.css",
-    "static/js/main.f2215827.js"
+    "static/js/main.b6669078.js"
   ]
 }
