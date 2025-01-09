@@ -120,8 +120,8 @@ export const About = () => {
 					<div>
 						<h3>{stack}</h3>
 						<div className={styles.skills}>
-							JS, TS, HTML, CSS, SASS, React, Redux, Node.js, Express.js, MongoDB,
-							Git, Webpack, Docker, Figma
+							TS, React, Redux Toolkit, Vue, Vuex, Pinia, SASS, Express.js, MongoDB,
+							Webpack, Vite, Docker, Git, Figma
 						</div>
 					</div>
 					<div>
