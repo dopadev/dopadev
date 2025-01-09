@@ -4,7 +4,7 @@ import { copyToClipboard } from '../../utils/copy-to-clipboard'
 import styles from './about.module.css'
 import animationStyles from '../../styles/animations.module.css'
 import accentStyles from '../../styles/accent.module.css'
-import im from '../../img/about/dopadev.jpeg'
+import im from '../../img/about/dopadev.jpg'
 
 export const About = () => {
 	const dispatch = useDispatch()
