@@ -5,14 +5,14 @@
 		"reality": "Reality with Every Line of Code."
 	},
 	"aboutMe": {
-		"description": "Hey there! I'm Daniil, a web developer. I wrote a backend on Node.js for working with DBMS and frontend on React + Redux for working with the client. I also created logos, designs and 3D models. I'm interested in information technology and how it's changing the world."
+		"description": "Hey there! I'm Daniil, a web developer. I wrote a backend on Express.js for working with DBMS, frontend on React + Redux and Vue + Vuex/Pinia for working with the client. I also created logos, designs and 3D models. I'm interested in information technology and how it's changing the world."
 	},
 	"about": {
 		"creative": "Creative",
 		"webDev": "Web Developer",
 		"creating": "creating harmony between code and design.",
-		"description": "Hey there! I'm Daniil, a web developer. I wrote a backend on Node.js for working with DBMS and frontend on React + Redux for working with the client. I also created logos, designs and 3D models. I'm interested in information technology and how it's changing the world.",
-		"team": "I'm eager to learn new things and develop. I want to create new useful things and share them with the world, so I will be glad to join a friendly strong team!",
+		"description": "Hey there! I'm Daniil, a web developer. I wrote a backend on Express.js for working with DBMS, frontend on React + Redux and Vue + Vuex/Pinia for working with the client. I also created logos, designs and 3D models. I'm interested in information technology and how it's changing the world.",
+		"team": "I'm eager to learn new things. I want to create new useful things and share them with the world, so I will be glad to join a friendly strong team!",
 		"workExperience": "Work Experience",
 		"education": "Education",
 		"stack": "Stack",
