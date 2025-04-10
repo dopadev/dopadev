@@ -1,9 +1,9 @@
 {
   "files": {
     "main.css": "/dopadev/static/css/main.020197e5.css",
-    "main.js": "/dopadev/static/js/main.1f541a73.js",
-    "static/media/dopadev.jpg": "/dopadev/static/media/dopadev.109c6fb14598e121303a.jpg",
+    "main.js": "/dopadev/static/js/main.a78b4e61.js",
     "static/media/hubble.jpg": "/dopadev/static/media/hubble.1cf587123bf541482270.jpg",
+    "static/media/toothless.jpg": "/dopadev/static/media/toothless.aaeffbd2f1ef69c6dc66.jpg",
     "static/media/hotel.jpg": "/dopadev/static/media/hotel.7424e6cc3c45289cbdbb.jpg",
     "static/media/triango.jpg": "/dopadev/static/media/triango.7e08e28ace0c64db6296.jpg",
     "static/media/hotel-p.jpg": "/dopadev/static/media/hotel-p.c96420cdd0fba6c96719.jpg",
@@ -28,10 +28,10 @@
     "static/media/chat-d.jpg": "/dopadev/static/media/chat-d.63bcf11931ae4e7a306d.jpg",
     "index.html": "/dopadev/index.html",
     "main.020197e5.css.map": "/dopadev/static/css/main.020197e5.css.map",
-    "main.1f541a73.js.map": "/dopadev/static/js/main.1f541a73.js.map"
+    "main.a78b4e61.js.map": "/dopadev/static/js/main.a78b4e61.js.map"
   },
   "entrypoints": [
     "static/css/main.020197e5.css",
-    "static/js/main.1f541a73.js"
+    "static/js/main.a78b4e61.js"
   ]
 }
