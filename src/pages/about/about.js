@@ -1,10 +1,10 @@
 import React from 'react'
 import { useDispatch, useSelector } from 'react-redux'
+import myImg from '../../img/about/toothless.jpg'
+import accentStyles from '../../styles/accent.module.css'
+import animationStyles from '../../styles/animations.module.css'
 import { copyToClipboard } from '../../utils/copy-to-clipboard'
 import styles from './about.module.css'
-import animationStyles from '../../styles/animations.module.css'
-import accentStyles from '../../styles/accent.module.css'
-import im from '../../img/about/dopadev.jpg'
 
 export const About = () => {
 	const dispatch = useDispatch()
@@ -86,7 +86,7 @@ export const About = () => {
 			<div
 				className={`${styles.aboutImage} ${animationStyles.slide} ${animationStyles.delay03}`}
 			>
-				<img src={im} alt="dopadev" loading="lazy" />
+				<img src={myImg} alt="dopadev" loading="lazy" />
 			</div>
 
 			<div className={styles.container}>

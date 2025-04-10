@@ -1,15 +1,15 @@
 import React from 'react'
 import { useDispatch, useSelector } from 'react-redux'
 import { ThemedLink } from '../../../../components'
+import animationStyles from '../../../../styles/animations.module.css'
 import { copyToClipboard } from '../../../../utils/copy-to-clipboard'
 import styles from './about-me.module.css'
-import animationStyles from '../../../../styles/animations.module.css'
 
 export const AboutMe = () => {
 	const dispatch = useDispatch()
-	const isEmailCopied = useSelector(state => state.copy.isEmailCopied)
+	const isTelegramCopied = useSelector(state => state.copy.isTelegramCopied)
 
-	const email = 'dopadevv@gmail.com'
+	const telegram = '@dopadev'
 
 	const handleCopy = (text, type) => {
 		copyToClipboard(text, type, dispatch)
@@ -30,7 +30,7 @@ export const AboutMe = () => {
 
 			<div
 				className={`${styles.contact} ${animationStyles.slide} ${animationStyles.delay04}`}
-				onClick={() => handleCopy(email, 'email')}
+				onClick={() => handleCopy(telegram, 'telegram')}
 			>
 				<div className={styles.contactItem}>
 					<h3>
@@ -38,7 +38,9 @@ export const AboutMe = () => {
 					</h3>
 				</div>
 
-				<div className={styles.email}>{isEmailCopied ? 'Email copied' : email}</div>
+				<div className={styles.email}>
+					{isTelegramCopied ? 'Telegram copied' : telegram}
+				</div>
 			</div>
 		</div>
 	)
